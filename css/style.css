@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,200&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.details{
+    padding-left: 180px;  
+    display: inline-block;
+}
+
+.logo{
+    display: inline-block;
+}
+
+
+.navbar li{
+    display: inline-block;
+    /* float: right; */
+}
+.navbar li a{
+    font-size:28px ;
+
+}
+
+/* carousel */
+
+
+
+/* About us */
+.aboutus{
+
+}
+
+.aboutus_heading{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+.aboutus_subheading{
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(63, 61, 59);
+    font-weight: 300;
+}
+
+.aboutus_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutus_description{
+    width: 60%;
+    padding: 12rem 3rem 3rem 16rem;
+    font-size: 1.5rem;
+    position: relative;
+
+}
+
+.aboutus_description::before{
+    content: '\2605  \2605  \2605';
+    position: absolute;
+    top: 12%;
+    right: 35%;
+    color: grey;
+}
+
+.aboutus_description p{
+    text-align: justify;
+}
+
+.aboutus_description a{
+    text-decoration: none;
+    color: rgb(69, 173, 243);
+    display: block;
+    text-align: right;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.aboutus_image{
+    padding: 3rem 16rem 3rem 0rem;
+}
